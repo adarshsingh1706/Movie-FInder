@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin: 0px;
+   
+}
+
+body{
+
+/* background-image: url(images/bkgrnd.jpg); */
+/* background-size: cover; */
+background-color: #001219;
+color:#6A0572;
+
+}
+.nav{
+    margin-top: 0px; 
+    background-color: #edede9;
+    height:140px;
+}
+
+.head {
+    
+   text-align: right; 
+   margin-right:85px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+
+.logo{
+    margin-top:0px;
+}
+
+#searchForm{
+    margin-top:15px;
+    text-align: right;
+    margin-right:85px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#searchForm hr{
+    width:360px;
+    margin-left:825px;
+    background-color:#6A0572;
+    height:2px;
+}
+#searchForm input{
+    border-radius: 4px;
+    height: 20px;
+    border: 1px solid #6A0572;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#searchForm input:hover{
+    border-radius: 4px;
+    height: 20px;
+    border: 2px solid #6A0572;
+    transition: 100ms;
+    
+}
+#searchForm button{
+    height:21px;
+    width:60px;
+    border:1px solid #6A0572;
+    background-color: whitesmoke;
+    color:#6A0572;
+    border-radius: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#searchForm button:hover{
+    border:2px solid #6A0572;
+    transition: 100ms;
+}
+
+.moviediv{
+    
+    width: 300px;
+    height:fit-content;
+    border:1px solid;
+    /* border:1px;
+    border-color: black;
+    border-style: dashed; */
+    padding: 10px;
+   
+    margin-top:5px;
+    
+}
+
+.names p {
+    color:white;
+    width:250px;
+    /* background-color: black; */
+}
+
+.searchResult{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
